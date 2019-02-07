@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prática</title>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+    <h1>Hola Mundo</h1>
+    <!-- Menú de navegación del sitio -->
+    <ul class="navbar">
+        <li><a href="indice.html">Página principal</a>
+        <li><a href="meditaciones.html">Meditaciones</a>
+        <li><a href="ciudad.html">Mi ciudad</a>
+        <li><a href="enlaces.html">Enlaces</a>
+    </ul>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+    <script>
+        var nuevo = ["Santiago", "Gòmez", "26", "UCE", "Desarrollador Jr"];
+        for (let index = 0; index < nuevo.length; index++) {
+            var n = nuevo[index];
+            //document.writeln(n);
+        }
+
+
+    </script>
+<button type="button" disabled="true">hhh</button>
+    <address>
+        <script>
+            document.write("Creada por " + nuevo[0] + " " + nuevo[1]+" "+nuevo[4]);
+            //Math.round
+        </script>
+
+    </address>
+</body>
+
+</html>

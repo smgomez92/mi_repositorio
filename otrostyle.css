@@ -1,0 +1,12 @@
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    border-color: #000;
+    border-width: 0.07cm;
+    background: rgb(184, 230, 222)
+}

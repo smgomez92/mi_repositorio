@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Segundo</title>
+    <script src="mijs.js">
+document.getElementById('num1').nodeValue;
+    </script>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+
+    <h2>Mi primer JS</h2>
+
+    <p id="demo">JavaScript can change the style of an HTML element.</p>
+
+    <button type="button" onclick="agrandar()" id="boton">Agrandar texto</button>
+
+    <button type="button" id="boton1" onclick="achicar()">Achicar texto</button>
+
+    <!--<button type="button"  id="boton" onclick=mia()>hhh</button>
+        -->
+
+    <script>
+        document.getElementById('boton1').style.display = 'none';
+        document.getElementById('demo').innerHTML = 'HOLA MUNDO';
+    
+    </script>
+
+
+<div>
+    <form name="forma">
+        <div>
+            <label for="num1">Número 1:</label>
+            <input type="text" id="num1" />
+        </div>
+        <div>
+            <label for="num2">Numero 2:</label>
+            <input type="text" id="num2"  />
+        </div>
+        <div>
+            <label for="msg">Resultado:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Calcular</button>
+        </div>
+    </form>
+    
+</div>
+</body>
+
+</html>
